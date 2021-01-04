@@ -74,7 +74,7 @@ MyFrame::MyFrame(const wxString& title)
        : wxFrame(NULL, wxID_ANY, title)
 {
     // 设置窗口图标
-    SetIcon(wxIcon(wxT("icon.ico")));
+    SetIcon(wxIcon(wxT("icon.png")));
 
     // 创建菜单条
     wxMenu *fileMenu = new wxMenu;
